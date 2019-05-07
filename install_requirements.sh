@@ -19,8 +19,6 @@ sudo apt-get -y install \
 #   python3.5
 
 # Pip dependencies
-#sudo pip3 install --upgrade pip
-#sudo pip3 install pipenv
 pip3 install --user pipenv
 
 # Create a new pipenv
