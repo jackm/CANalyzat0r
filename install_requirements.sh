@@ -9,8 +9,8 @@ export LC_ALL=C.UTF-8
 export LANG=C.UTF-8
 
 # Apt dependencies
-sudo apt update
-sudo apt -y install \
+sudo apt-get -qq update
+sudo apt-get -y install \
    can-utils \
 #   ffmpeg \
    iproute2 \
