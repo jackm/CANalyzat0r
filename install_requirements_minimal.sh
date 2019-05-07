@@ -12,11 +12,8 @@ export LANG=C.UTF-8
 sudo apt-get -qq update
 sudo apt-get -y install \
    can-utils \
-   ffmpeg \
    iproute2 \
-   python3-pip \
-   python3-pyside \
-   python3.5
+   python3-pip
 
 # Pip dependencies
 pip3 install --user pipenv
@@ -26,4 +23,3 @@ cd $DIR
 mkdir -p pipenv && cd pipenv
 pipenv --three
 pipenv install pyvit sphinx_rtd_theme
-cp -rf /usr/lib/python3/dist-packages/PySide $(pipenv --venv)/lib/python3*/site-packages
